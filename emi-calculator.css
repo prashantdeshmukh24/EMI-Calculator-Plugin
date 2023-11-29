@@ -1,0 +1,44 @@
+/* emi-calculator.css */
+#emi-calculator-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#emi-calculator-form {
+    flex: 1;
+    max-width: 48%; /* Adjust this value as needed */
+    margin-right: 2%; /* Adjust the spacing between the columns as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="number"]{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#emi-details {
+    flex: 1;
+    max-width: 48%; /* Adjust this value as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
